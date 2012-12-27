@@ -8,11 +8,23 @@ var sectionHeight = function() {
   } else {
     $section.css('height','auto');
   }
+  // reset width
+  var offset = $section.offset();
+  if(offset.left>145)
+  {
+    $.infoDiv.show().css("left",offset.left-22-$.infoDiv.width());
+  }
+  else
+  {
+    $.infoDiv.hide();
+  }
 }
 
 $(window).resize(sectionHeight);
 
 $(document).ready(function(){
+  $.infoDiv=$("div.info-div");
+  $.section=$("section");
   $("section h1, section h2").each(function(){
     $("nav ul").append("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + $(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,'') + "'>" + $(this).text() + "</a></li>");
     $(this).attr("id",$(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,''));

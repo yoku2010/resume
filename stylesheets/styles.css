@@ -610,7 +610,7 @@ div.syn {
 }
 div.info-div
 {
-	display:block;
+	display:none;
 	position:fixed;
 	top:191px;
 	left:175px;
@@ -891,10 +891,6 @@ footer {
     margin: 0;
   }
 
-  nav {
-    display: none;
-  }
-
   header, section, footer {
     float: none;
   }
@@ -931,6 +927,15 @@ footer {
     left: auto;
     bottom: auto;
     width: auto;
+  }
+}
+
+@media print, screen and (max-width: 786px) {
+  nav {
+    display: none;
+  }
+  div.info-div{
+    display: none;
   }
 }
 @media print, screen and (max-width: 720px) {
@@ -973,6 +978,12 @@ footer {
 
   header ul, header p.view {
     position: static;
+  }
+}
+
+@media print, screen and (max-width: 600px) {
+  #banner a.button{
+    display:none;
   }
 }
 @media print, screen and (max-width: 480px) {
