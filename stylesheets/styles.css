@@ -584,6 +584,20 @@ blockquote {
   font-style: italic;
 }
 
+div.graph{
+  background:#FFF;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #F1F1F1;
+  margin: 0;
+  padding: 10px;
+  overflow:hidden;
+  display:block;
+}
 div.syn {
   padding: 8px;
   margin: 0;
