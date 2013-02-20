@@ -28,7 +28,7 @@
       <span id="logo"></span>
       <a href="other/resume.doc" class="button fork"><strong>Download Resume</strong></a>
       <div class="downloads">
-        <span>Tel.:  (Mobile) 08890467032 ~ E-Mail: yoku2010@gmail.com</span>
+        <span>Tel.:  (Mobile) +91 8130935784 ~ E-Mail: yoku2010@gmail.com</span>
       </div>
     </div>
     <!-- end banner -->
@@ -41,12 +41,15 @@
         <p><small>Education<br/><a href="#">B.E. (Information Technology)</a></small></p>
         <p><small>Current Location<br/><a href="#">Gurgaon, India</a></small></p>
         <p><small>Website<br/><a target="_blank" href="http://bluejson.com">bluejson.com</a></small></p>
+        </p>&nbsp;</p>
+        </p>&nbsp;</p>
+        <p><small><a href="index.html">Simple Resume</a></small></p>
       </div>
       <!-- nav -->
       <nav>
         <ul>
           <li>
-            <a target="_blank" href="http://www.linkedin.com/pub/yogesh-kumar/22/1b0/997">
+            <a target="_blank" href="http://www.linkedin.com/in/yoku2010">
               <img src="images/linkedin-icon.png" alt="linkedin" title="Linked-In"/>
             </a>
           </li>
@@ -90,14 +93,54 @@
       <!-- end nav -->
       <!-- section -->
       <section>
+      	<div style="display:none;">
         <!-- synopsis -->
         <h3>GRAPHICAL RESUME</h3>
         <!-- time line -->
-        <div id="time_line" class="graph">
-        Time Line
+        <div class="graph">
+        	<p class="head">Time Line</p>
+        	<p class="sub-head">Past, Present and Feature</p>
+        	<div id="timeline"></div>
         </div>
         <!-- end time line -->
         <p>&nbsp;</p>
+        <!-- stability graph -->
+        <div class="graph">
+        	<svg style="overflow: hidden; position: relative;" height="280" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg">
+		  <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+		    <filter id="gauge1-inner-shadow">
+		      <feOffset dx="0" dy="3"></feOffset>
+		      <feGaussianBlur result="offset-blur" stdDeviation="5"></feGaussianBlur>
+		      <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"></feComposite>
+		      <feFlood flood-color="black" flood-opacity="0.2" result="color"></feFlood>
+		      <feComposite operator="in" in="color" in2="inverse" result="shadow"></feComposite>
+		      <feComposite operator="over" in="shadow" in2="SourceGraphic"></feComposite>
+		    </filter>
+		  </defs>
+		  <path fill="#edebeb" stroke="none" d="M207.91665649414062,240L151.66665649414062,240A150,150,0,0,1,451.6666564941406,240L395.4166564941406,240A93.75,93.75,0,0,0,207.91665649414062,240Z" filter="url(#gauge1-inner-shadow)"></path>
+		  <path fill="#f0c903" stroke="none" d="M207.91665649414062,240L151.66665649414062,240A150,150,0,0,1,275.6194298441011,92.27883704816881L285.3871398378659,147.67427315510548A93.75,93.75,0,0,0,207.91665649414062,240Z" filter="url(#gauge1-inner-shadow)"></path>
+		  <text x="284" y="25" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:16px;color:#3E576F;fill:#3E576F;" text-anchor="middle" class="highcharts-title" zIndex="4"><tspan x="284">Stablity</tspan></text>
+		  <text x="284" y="40" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#6D869F;fill:#6D869F;" text-anchor="middle" class="highcharts-subtitle" zIndex="4"><tspan x="284">In the Professional Career</tspan></text>
+		  <text style="text-anchor: middle; font-style: normal; font-variant: normal; font-weight: bold; font-size: 12px; color:#6D869F; line-height: normal; font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif; fill-opacity: 1;" x="301.6666564941406" y="214.2857142857143" text-anchor="middle" stroke="none" fill="#6D869F" fill-opacity="1">
+		    <tspan dy="15.285714285714306">73%</tspan>
+		  </text>
+		  <text  x="180" y="250" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:64px;color:#666;line-height:14px;fill:#666;" text-anchor="middle"><tspan dy="5.249999999999943">0</tspan></text>
+		  <text x="424" y="250" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:64px;color:#666;line-height:14px;fill:#666;" text-anchor="middle"><tspan dy="5.249999999999943">100</tspan></text>
+		</svg>
+        </div>
+        <div id="stability_graph" class="graph" style="display:none;">
+        	<p class="head">Stablity</p>
+        	<p class="sub-head">In the Professional Career</p>
+		<div class="plainwidget">
+			<div class="progress progress-info">
+		        <div class="bar" style="width: 73%"></div>
+		    </div>
+		    <small><strong>73 %</strong></small>
+		</div>
+        </div>
+        <!-- end stability graph -->
+        <p>&nbsp;</p>
+        </div>
         <!-- nerdy skills -->
         <div id="nerdy_skill_graph" class="graph">
         </div>
@@ -113,18 +156,6 @@
         </div>
         <!-- end job duties -->
         <p>&nbsp;</p>
-        <!-- stability graph -->
-        <div id="stability_graph" class="graph">
-        <div class="graph percentage color3 index-2 percentage_100">
-    		<div id="percentage_label"><span>73%</span></div>
-    		<div id="percentage_discs">
-    			<span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-filled"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span><span class="circle circle-empty"></span>    		</div>
-    		<div style="clear:both;"></div>
-    		<div id="percent_description">Stability</div>
-    	</div>
-        </div>
-        <!-- end stability graph -->
-        <p>&nbsp;</p>
         <!-- linguistic abilities -->
         <div id="linguistic_abilities_graph" class="graph">
         </div>
@@ -135,7 +166,7 @@
       <!-- end section -->
       <!-- footer -->
       <footer>
-        <p><small>Last Updated On: <a href="#">28-Dec-2012</a></small></p>
+        <p><small>Last Updated On: <a href="#">20-Feb-2013</a></small></p>
       </footer>
       <!-- end footer -->
     </div>

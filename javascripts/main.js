@@ -20,8 +20,6 @@ var sectionHeight = function() {
   }
 }
 
-$(window).resize(sectionHeight);
-
 $(document).ready(function(){
   $.infoDiv=$("div.info-div");
   $.section=$("section");
@@ -62,4 +60,5 @@ fixScale = function(doc) {
     scales = [.25, 1.6];
     doc[addEvent](type, fix, true);
   }
+  $(window).resize(sectionHeight);
 };
