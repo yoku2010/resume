@@ -1,885 +1,486 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Resume Yogesh Kumar</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>My Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <!-- header -->
-    <header>
-      <h1>Yogesh Kumar</h1>
-      <p>In quest of assignments in Software Development with an organisation of high repute.</p>
-    </header>
-    <!-- end header -->
-    
-    <!-- banner -->
-    <div id="banner">
-      <span id="logo"></span>
-      <a href="other/resume.doc" class="button fork"><strong>Download Resume</strong></a>
-      <div class="downloads">
-        <span>Tel.:  (Mobile) +91 8130935784 ~ E-Mail: yoku2010@gmail.com</span>
-      </div>
-    </div>
-    <!-- end banner -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+      <div class="">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand top-header">My Resume</a>
+        </div> <!-- End navbar header -->
 
-    <!-- wrapper -->
-    <div class="wrapper">
-      <div class="info-div">
-        <div class="avatar"><img src="images/avatar.png" style="width:110px;" alt="Yogesh Kumar"/></div>
-        <p><small>Work<br/><a href="#">Sr. Software Engineer</a></small></p>
-        <p><small>Education<br/><a href="#">B.E. (Information Technology)</a></small></p>
-        <p><small>Current Location<br/><a href="#">Gurgaon, India</a></small></p>
-        <p><small>Website<br/><a target="_blank" href="http://bluejson.com">bluejson.com</a></small></p>
-        </p>&nbsp;</p>
-        </p>&nbsp;</p>
-        <p><small><a href="advance-resume.html">Graphical Resume</a></small></p>
-      </div>
-      <!-- nav -->
-      <nav>
-        <ul>
-          <li>
-            <a target="_blank" href="http://www.linkedin.com/in/yoku2010">
-              <img src="images/linkedin-icon.png" alt="linkedin" title="Linked-In"/>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://github.com/yoku2010">
-              <img src="images/github-icon.png" alt="github" title="Github"/>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="http://stackoverflow.com/users/707869/yoku2010">
-              <img src="images/stackoverflow-icon.png" alt="stackoverflow" title="StackOverflow"/>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="http://jsfiddle.net/user/yoku2010/fiddles/">
-              <img src="images/jsfiddle-icon.png" alt="jsfiddle" title="JSfiddle"/>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://twitter.com/yoku_2010">
-              <img src="images/twitter-icon.png" alt="twitter" title="Twitter"/>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="http://www.facebook.com/yoku2010">
-              <img src="images/facebook-icon.png" alt="facebook" title="Facebook"/>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://plus.google.com/108460987249057553016">
-              <img src="images/google-plus-icon.png" alt="google+" title="Google+"/>
-            </a>
-          </li>
-          <li>
-            <a href="skype:yogesh_kumar1988?call">
-              <img src="images/skype-icon.png" alt="skype" title="Skype"/>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <!-- end nav -->
-      <!-- section -->
-      <section>
-        <!-- synopsis -->
-        <h3>SYNOPSIS</h3>
-        <div class="syn">
-          <ul>
-            <li>Currently working as Sr. Software Engineer with Excelsoft Technologies Private Limited from August 2014, Experience 4.9 Years.</li>
-            <li>A focussed B.E. (Information Technology) individual with keen interest in subjects such as Software Engineering, Data Structure &amp; Networking.</li>
-            <li>Creating a JavaScript Utility Library (<a target="_blank" href="http://bluejson.com">bluejson</a>) and contribute to Open Source in JavaScript Library Development</li>
-            <li>Acquired sound knowledge of Software Languages, Operating Systems, SQL Server, MySQL, MongoDB, Nagios, RRD, SNMP and Internet Applications.</li>
-            <li>Undertaken a Certificate in Developing Enterprise Applications using .Net Framework and XML from NIIT AJMER in year 2007.</li>
-            <li>Successfully attended industrial trainings at ‘Bharat Sanchar Nigam Limited, Ajmer’ on ‘Telecommunication Technology’ and at ‘NIIT’ on ‘ASP.Net and AJAX’.</li>
-            <li>Software Engineer with strong analytical, problem solving &amp; organisational abilities.</li>
-            <li>Effective communicator with good interpersonal skills.</li>
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="navbar-collapse">
+           <ul class="nav navbar-nav">
+             <li><a href="#about">About</a></li>
+             <li><a href="#resume">Resume</a></li>
+             <li><a href="#skills">Skills</a></li>
+             <li><a href="#contact">Contact me</a></li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right">
+              <li><a class="download-resume" href="other/resume.doc" title="Download Resume"><i class="fa fa-download"></i></a></li>
           </ul>
-        </div>
-        <!-- end synopsis -->
-        
-        <!-- technical skill set -->
-        <h3>TECHNICAL SKILL SET</h3>
-        <p class="lowp">
-          <span class="label">Programming Languages : </span>
-          <span class="info">Python, Djando, AngularJS, JavaScript, JavaScript Prototyping, JavaScript MVC, Regular Expression,  JSON, HTML, HTML5, CSS, jQuery, Ajax, Bootstrap Framework, PHP, C#, ASP.NET MVC, Java, Perl, XML, Shell Script, MDX</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Operating Systems : </span>
-          <span class="info">Linux (RHEL, Ubuntu), Mac OS X Yosemite</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Database : </span>
-          <span class="info">MySQL, SQLite, SQL Server, MongoDB, Round Robin Database (RRD), Firebase</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Network Protocols : </span>
-          <span class="info">SNMP, FTP, TCP/UDP, HTTP, NFS</span>
-        </p>
-        <p>
-          <span class="label">Other : </span>
-          <span class="info">Nagios, OOPs, DSA/DAA</span>
-        </p>
-        <!-- end technical skill set -->
-        
-        <!-- nerdy skills -->
-        <h3>NERDY SKILLS</h3>
-        <p class="lowp">
-          <span class="label">Python : </span>
-          <span class="info">8/10</span>
-        </p>
-        <p class="lowp">
-          <span class="label">JavaScript/jQuery : </span>
-          <span class="info">8/10</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Django Framework: </span>
-          <span class="info">7/10</span>
-        </p>
-        <p class="lowp">
-          <span class="label">HTML5 : </span>
-          <span class="info">7/10</span>
-        </p>
-        <p>
-          <span class="label">CSS3 : </span>
-          <span class="info">7/10</span>
-        </p>
-        <!-- end nerdy skills -->
-        
-        <!-- professional experience -->
-        <h3>PROFESSIONAL EXPERIENCE</h3>
-        <!-- eTouch Systems -->
-        <p class="lowp">
-          <span class="label">Organisation : </span>
-          <span class="info">Excelsoft Tecnhologies Private Limited</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Duration : </span>
-          <span class="info">Aug'14 - Continue</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Designation : </span>
-          <span class="info">Sr. Software Engineer</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Role : </span>
-          <span class="info">Web Application Development</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Projects : </span>
-        </p>
-        <fieldset>
-          <legend><small>Cognowise</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>Cognowise, a learning analytics tool, provides advanced data intelligence capabilities through a scalable real-time reporting and analytics engine catering specifically to the learning and assessments industry. Cognowise will also drive the next generation Adaptive and Personalized Learning delivery through the Saras Learning Management System.</td>
-                </tr>
-                <tr>
-                  <td>Technology &amp; Languages</td>
-                  <td>:</td>
-                  <td>Moodle (Opensource), AngularJS, MySQL, JavaScript, JSON, AJAX, HTML5, CSS3, PHP, Java, MDX</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Linux (UBUNTU)</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>15+</td>
-                </tr>
-                <tr>
-                  <td>Implemented For</td>
-                  <td>:</td>
-                  <td>JBL</td>
-                </tr>
-              </tbody>  
-            </table>
-          </small>
-        </fieldset>
-        <!-- end eTouch Systems -->
-        <!-- eTouch Systems -->
-        <p class="lowp">
-          <span class="label">Organisation : </span>
-          <span class="info">eTouch Systems Private Limited</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Duration : </span>
-          <span class="info">Nov'13 - Jun'14</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Designation : </span>
-          <span class="info">Software Engineer</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Role : </span>
-          <span class="info">Web Application Development</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Projects : </span>
-        </p>
-        <fieldset>
-          <legend><small>CISCO - Training Project Management System (TPMS)</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>Survey application and assessment is a part of the Training Project Management System that will allows learners who received training on Cisco products to provide their feedback. It also allows Project Managers to view all Surveys and their cumulative scores with flexibility to drill up and drill down different views. The survey module has logic to compute scores based on ratings and weightage based answers provided.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>AngularJS, Python, Django, MySQL, JavaScript, JSON, AJAX, HTML5, CSS3</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Linux (UBUNTU)</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>10+</td>
-                </tr>
-                <tr>
-                  <td>Implemented For</td>
-                  <td>:</td>
-                  <td>Cisco</td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <!-- end eTouch Systems -->
-        <p class="lowp">&nbsp;</p>
-        <!-- HT Media -->
-        <p class="lowp">
-          <span class="label">Organisation : </span>
-          <span class="info">HT Media</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Duration : </span>
-          <span class="info">Nov'12 - Continue</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Designation : </span>
-          <span class="info">Software Engineer (Senior Executive)</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Role : </span>
-          <span class="info">Web Application Development</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Projects : </span>
-        </p>
-        <fieldset>
-          <legend><small>Shine.com</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>Shine.com is a online recruitment portal. Job seekers can register himself, update resume and find jobs. Recruiters can also register and find best candidates.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>Python, Django, MySQL, MongoDB, jQuery, JSON, AJAX, HTML, CSS3</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Linux (UBUNTU)</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>20+</td>
-                </tr>
-                <tr>
-                  <td>Website</td>
-                  <td>:</td>
-                  <td><a target="_blank" href="http://www.shine.com">www.shine.com</a></td>
-                </tr>
-              </tbody>  
-            </table>
-          </small>
-        </fieldset>
-        <!-- end HT Media -->
-        <p class="lowp">&nbsp;</p>
-        <!-- CCPL-2 -->
-        <p class="lowp">
-          <span class="label">Organisation : </span>
-          <span class="info">Codescape Consultants Pvt. Ltd.</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Duration : </span>
-          <span class="info">May'11 – Oct'12</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Designation : </span>
-          <span class="info">Software Engineer-Team Lead</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Role : </span>
-          <span class="info">Training Delivery, Leading Team, Database Designing, Work-flow Designing, Architecture Designing, Web Application Development, and Networking Tools Development</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Projects : </span>
-        </p>
-        <fieldset>
-          <legend><small>Logic Mills (HTML5 Game Portal)</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>Logic Mills (HTML5 Game Portal) is a Gaming website. Which is developed using JSP HTML5 and CSS3. Currently it has only one game (shady puzzle). In this website User can register yourself, play game and generate a report for the same. User can manage their profile also.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>HTML5, JavaScript, AJAX, jQuery, CSS3, JSP</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Linux & Windows7</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>3</td>
-                </tr>
-                <tr>
-                  <td>Implemented at</td>
-                  <td>:</td>
-                  <td>Logic Mills (Ministry of Education Singapore)</td>
-                </tr>
-                <tr>
-                  <td>Website</td>
-                  <td>:</td>
-                  <td><a target="_blank" href="www.logicmillsgames.com">Logic Mills Game</a></td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <fieldset>
-          <legend><small>NMS (UNMP)</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>Unified network management platform (UNMP) is a robust and scalable platform for configuring and monitoring the IP-based devices present in any enterprise or carrier-grade network. It automatically searches the newly installed network elements and allows you to manage and group the network devices/nodes based on their location and type. You can integrate any number of devices with UNMP easily and seamlessly. It acts as an efficient event management system (EMS) for all the SHYAM DATA PRODUCTS.
-This platform has full-fledged framework to monitor and log the comprehensive reports on the performance of network devices and its services.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>Nagios, Python2.6, SqlAlchemy, Apache, MySQL, RRDTool, SNMP jQuery, JSON, AJAX, HTML, CSS3</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Linux (RHEL5.5, UBUNTU)</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>8</td>
-                </tr>
-                <tr>
-                  <td>Implemented at</td>
-                  <td>:</td>
-                  <td>Vodafone (Mumbai), Mid Atlantic (US), Data on PC (Nigeria), LBSNAA (Masoori), Airport Authority of India </td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <!-- end CCPL-2 -->
-        <p class="lowp">&nbsp;</p>
-        <!-- CCPL-1 -->
-        <p class="lowp">
-          <span class="label">Organisation : </span>
-          <span class="info">Codescape Consultants Pvt. Ltd.</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Duration : </span>
-          <span class="info">Apr'10 – May'11</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Designation : </span>
-          <span class="info">Associate Software Engineer</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Role : </span>
-          <span class="info">Web Application Development</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Projects : </span>
-        </p>
-        <fieldset>
-          <legend><small>NMS (UNMP)</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>Unified network management platform (UNMP) is a robust and scalable platform for configuring and monitoring the IP-based devices present in any enterprise or carrier-grade network. It automatically searches the newly installed network elements and allows you to manage and group the network devices/nodes based on their location and type. You can integrate any number of devices with UNMP easily and seamlessly. It acts as an efficient event management system (EMS) for all the SHYAM DATA PRODUCTS.
-This platform has full-fledged framework to monitor and log the comprehensive reports on the performance of network devices and its services.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>Nagios, Python2.6, SqlAlchemy, Apache, MySQL, RRDTool, SNMP jQuery, JSON, AJAX, HTML, CSS3</td>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Linux (RHEL5.5, UBUNTU)</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>8</td>
-                </tr>
-                <tr>
-                  <td>Implemented at</td>
-                  <td>:</td>
-                  <td>Vodafone (Mumbai), Mid Atlantic (US), Data on PC (Nigeria), LBSNAA (Masoori), Airport Authority of India </td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <fieldset>
-          <legend><small>CORMAN</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>CORMAN is Correspondence Management System for MLAs (Member of Legislative Assembly). Which Manage In/Out Letters, Contacts, Tour and Meetings.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>ASP.NET MVC with C#, Server 2005, jQuery</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Windows 7</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>2</td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <fieldset>
-          <legend><small>GIRS</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>GIRS is a web-based Inventory management system. Which manage in/out goods, manage customers, manage payroll, manage employee, generate invoice and  automated notifications & alarm.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>ASP.NET MVC with C#, Server 2005, jQuery</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Windows7</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>3</td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <fieldset>
-          <legend><small>ROPEScape</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>ROPE Scape (Resource Optimization for Pest Management Enterprises) a web-based ERP that enables all the features and tools you'll need to operate and grow your pest control and management business with greater ease and organization. Built on latest state of the art technology, comes with business intelligence to provide intelligent reporting, inventory control, billing & invoicing, job scheduling, payroll and automated notifications to optimize your communications and relationships.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>ASP.NET MVC with C#, Server 2005, jQuery</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Windows7</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>3</td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <fieldset>
-          <legend><small>Eureka</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Description</td>
-                  <td>:</td>
-                  <td>Eureka is a ERP System. Which Manage manufacturing of rubber conveyor belt,  Manage Inventory, Manage Payroll, Manage Employees, Manage In/Out raw materials, Manage Customers and Generate Invoices & Quotations.</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>ASP.NET with C#, Server 2005, jQuery</td>
-                </tr>
-                <tr>
-                  <td>Platform</td>
-                  <td>:</td>
-                  <td>Windows7</td>
-                </tr>
-                <tr>
-                  <td>Team Size</td>
-                  <td>:</td>
-                  <td>2</td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <!-- end CCPL-1 -->
-        <p class="lowp">&nbsp;</p>
-        <!-- end professional experience -->
-        
-        <!-- professional certification -->
-        <h3>PROFESSIONAL CERTIFICATION</h3>
-        <p>Certificate in Developing Enterprise Applications using .Net Framework and XML from NIIT AJMER in year 2007.</p>
-        <!-- end professional certification -->
-        
-        <!-- scholastics -->
-        <h3>SCHOLASTICS</h3>
-        <p>
-          B.E. (Information Technology)
-          <a> - in 2009</a>
-          <br/>
-          Govt. Engineering College, Ajmer (University of Rajasthan) with 65.15%.
-        </p>
-        <p>
-          12th (Science)
-          <a> - in 2005</a>
-          <br/>
-          D.A.V. Senior Secondary School, Ajmer (Rajasthan Board of Secondary Education) with 60.77%.
-        </p>
-        <p>
-          10th
-          <a> - in 2003</a>
-          <br/>
-          D.A.V. Senior Secondary School, Ajmer (Rajasthan Board of Secondary Education) with 68.83%.
-        </p>
-        <!-- end scholastics -->
-        
-        <h3>INDUSTRIAL TRAININGS</h3>
-        <!-- tranning-1 -->
-        <p class="lowp">
-          <span class="label">Organisation : </span>
-          <span class="info">Bharat Sanchar Nigam Limited</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Duration : </span>
-          <span class="info">Jun'07 – Jul'07</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Title : </span>
-          <span class="info">Telecommunication Technology</span>
-        </p>
-        <p>
-          <span class="label">Scope of Training : </span>
-          <span class="info">This training was for understanding GSM System, WLL, Data Transmission Devices etc.</span>
-        </p>
-        <!-- end tranning-1 -->
-        
-        <!-- tranning-2 -->
-        <p class="lowp">
-          <span class="label">Organisation : </span>
-          <span class="info">NIIT</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Duration : </span>
-          <span class="info">Apr'08 – May'08</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Title : </span>
-          <span class="info">ASP.Net Ajax</span>
-        </p>
-        <p>
-          <span class="label">Scope of Training : </span>
-          <span class="info">To develop a online application [Online Library Management] which is completely based on AJAX Tool.</span>
-        </p>
-        <!-- end tranning-2 -->
-        
-        <!-- academic projects -->
-        <h3>ACADEMIC PROJECTS</h3>
-        <fieldset>
-          <legend><small>Major</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Title</td>
-                  <td>:</td>
-                  <td>University Placement Portal</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>ASP.NET with C#, Visual Studio 2008, SQL 2008</td>
-                </tr>
-                <tr>
-                  <td>Scope</td>
-                  <td>:</td>
-                  <td>To maintain all the information about the students, companies, job details in any university.</td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <fieldset>
-          <legend><small>Minor</small></legend>
-          <small>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Title</td>
-                  <td>:</td>
-                  <td>Attendance System</td>
-                </tr>
-                <tr>
-                  <td>Technology & Languages</td>
-                  <td>:</td>
-                  <td>ASP.NET with C#, Visual Studio 2008, SQL 2008</td>
-                </tr>
-                <tr>
-                  <td>Scope</td>
-                  <td>:</td>
-                  <td>To maintain attendance and lectures of students</td>
-                </tr>
-              </tbody>	
-            </table>
-          </small>
-        </fieldset>
-        <p class="lowp">&nbsp;</p>
-        <!-- end academic projects -->
-        
-        <!-- seminar -->
-        <h3>SEMINAR</h3>
-        <p class="lowp">
-          <span class="label">Title : </span>
-          <span class="info">Global System for Mobile Communication (GSM)</span>
-        </p>
-        <p>
-          <span class="label">Title : </span>
-          <span class="info">Optical Network</span>
-        </p>
-        <!-- end seminar -->
-        
-        <!-- other academic projects -->
-        <h3>OTHER ACADEMIC PROJECTS</h3>
-        <p>
-          Microsoft Students to Business Academic Project Program 07-08
-          <br/>
-          <span class="label">Project Name : </span>
-          <span class="info">ASP.NET AJAX</span>
-        </p>
-        <p>
-          Microsoft Students to Business Academic Project Program 08-09
-          <br/>
-          <span class="label">Project Name : </span>
-          <span class="info">Point of Sale</span>
-        </p>
-        <p>
-          Microsoft Students to Business Academic Project Program 08-09
-          <br/>
-          <span class="label">Project Name : </span>
-          <span class="info">Online Library</span>
-        </p>
-        <p>
-          Microsoft Students to Business Academic Project Program 08-09
-          <br/>
-          <span class="label">Project Name : </span>
-          <span class="info">University Placement Portal</span>
-        </p>
-        <p>
-          Microsoft Students to Business Academic Project Program 08-09
-          <br/>
-          <span class="label">Project Name : </span>
-          <span class="info">Patient Management System</span>
-        </p>
-        <p>
-          For Mechanical Lab of Govt. Engineering College Ajmer
-          <br/>
-          <span class="label">Project Name : </span>
-          <span class="info">Machine Maintenance System</span>
-        </p>
-        <!-- end other academic projects -->
-        
-        <!-- extramural accolades -->
-        <h3>EXTRAMURAL ACCOLADES</h3>
-        <ul>
-          <li>Achieved Best Associate of the Year Award in 2011 at Codescape Consultants Pvt. Ltd.</li>
-          <li>Attended the seminar & workshop on Next Generation W3C Web Technologies.</li>
-          <li>Participated as Organizing Committee Member in the National Conference on “Recent Advancement in Engineering & Technology”</li>
-          <li>Secured 2nd Position in College Group Song Competition.</li>
-          <li>Secured 2nd Position in Mega Unique Quiz Contest in School.</li>
-        </ul>          
-        <!-- end extramural accolades -->
-        
-        <!-- personal dossier -->
-        <h3>PERSONAL DOSSIER</h3>
-        <p class="lowp">
-          <span class="label">Date of Birth : </span>
-          <span class="info">1st Jun, 1988</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Address : </span>
-          <span class="info">H.No. 3105/26, New Colony Bhagwan Ganj, Ajmer - 305001.</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Email : </span>
-          <span class="info">yoku2010@gmail.com</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Mobile No : </span>
-          <span class="info">+91 8130935784, +91 8890467032</span>
-        </p>
-        <p>
-          <span class="label">Linguistic Abilities : </span>
-          <span class="info">English &amp; Hindi</span>
-        </p>
-        <!-- end personal dossier -->
-        
-        <!-- github 
-        <h3>GITHUB</h3>
-        <h4>I have  top 5 Repositories on github</h4>
-        <p class="lowp">
-          <span class="label"><a target="_blank" href="https://github.com/yoku2010/fetchit">fetchit</a> : </span>
-          <span class="info">FetchIT is a Monitoring System. It monitor your Linux and Windows machine</span>
-        </p>
-        <p class="lowp">
-          <span class="label"><a target="_blank" href="https://github.com/yoku2010/bluejson">bluejson</a> : </span>
-          <span class="info">It is a JavaScript utility library. it provides advance functions to make your work easy.</span>
-        </p>
-        
-        <p class="lowp">
-          <span class="label"><a target="_blank" href="https://github.com/yoku2010/html5-games">html5-games</a> : </span>
-          <span class="info">This Plugin Create These HTML5 Games using canvas (Shady Puzzle, Arrange Numbers, Snake and Break It).</span>
-        </p>
-        <p class="lowp">
-          <span class="label"><a target="_blank" href="https://github.com/yoku2010/jQueryDataTable">jQueryDataTable</a> : </span>
-          <span class="info">jQuery DataTable Library Developed in Python</span>
-        </p>
-        <p>
-          <span class="label"><a target="_blank" href="https://github.com/yoku2010/jQueryDateRibbon">jQueryDateRibbon</a> : </span>
-          <span class="info">This Plugin Create Date Ribbon</span>
-        </p>
-        end github -->
-        
-        <!-- stackoverflow -->
-        <h3>STACK OVERFLOW</h3>
-        <p class="lowp">
-          <span class="label">Reputation : </span>
-          <span class="info">372</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Badges : </span>
-          <span class="info">1 silver (Yearling), 11 bronze (Popular Question,Commentator,Revival,Editor,Scholar,Teacher,Student,Autobiographer,Supporter,Critic, Caucus)</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Answers : </span>
-          <span class="info">16</span>
-        </p>
-        <p class="lowp">
-          <span class="label">Questions : </span>
-          <span class="info">3</span>
-        </p>
-        <a href="http://stackoverflow.com/users/707869/yoku2010" target="_blank">
-          <img src="http://stackoverflow.com/users/flair/707869.png?theme=clean" style="width:208px;height:58px; border:4px #EAE6D1 solid;" alt="Yogesh Kumar at Stack Overflow"/>
-        </a>
-        <!-- end stackoverflow -->
-        <p class="lowp" style="text-align:center; font-size:130%;">&#10043; &#10044; &#10043;</p>
-      </section>
-      <!-- end section -->
-      <!-- footer -->
-      <footer>
-        <p><small>Last Updated On: <a href="#">06-Feb-2015</a></small></p>
-      </footer>
-      <!-- end footer -->
-    </div>
-    <!-- end wrapper -->
-    
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    <!--  google analytics -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-37265345-1']);
-      _gaq.push(['_trackPageview']);
+         </div>
+      </div> <!-- End container -->
+    </nav> <!-- End navbar -->
 
-      (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <script type="text/javascript">
-      try {
-          var pageTracker = _gat._getTracker("yoku2010");
-          pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
-    <!-- Skype -->
-    <script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
-  </body>
+    <section>
+      <div class="main-section">
+        <div class="bg-div">
+          <div class="bg"></div>
+          <div class="resume-title">
+            <div class="title-wrap">
+              <h3>HI I AM YOGESH KUMAR</h3>
+              <div class="clearfix"></div>
+              <h4><a href="#about" class="custom-scroll-link">Let's start</a></h4>
+            </div>
+          </div>
+        </div>
+        <div class="left">
+          <div class="img-wrapper">
+            <div class="img-div"></div>
+            <div class="overlay"></div>
+            <div class="text-head">
+              <span>My Resume</span>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section-title">
+                <div class="shadow-section-title">
+                  <span>About</span>
+                </div>
+                <h3 class="media-heading">Who I Am</h3>
+                <h2 id="about_me">About</h2>
+                <div class="st-separator"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="me-img">
+                <img src="images/me.jpg">
+              </div>
+            </div>
+            <div class="col-xs-7">
+              <div class="about-text">
+                <div class="name">
+                  <h2>Yogesh Kumar</h2>
+                </div>
+                <div class="title">
+                  <h2>Web Designer &amp; Web Developer From INDIA</h2>
+                </div>
+                <div class="description">
+                  <p>Hi! My name is Yogesh Kumar and i am a 27 years old full stack developer.</p>
+                  <p>I love programming, singing, making algorithms and cooking. I am good at Python and JavaScript development. Enjoy helping others and learn more. Enthusiast and Passionate about pushing front end development to the next level. Ability to work independently and seek answers.</p>
+                  <p><em>Patience, persistence and perspiration make an unbeatable combination for success.</em></p>
+                  <p>
+                    <a href="#" target="_self" class="btn btn-lg btn-holo">
+                      <i class="fa fa-angle-right"></i>
+                      <span>View Work</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="holo-separator"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="show-facts">
+                <div class="title">
+                  <h3>Some Facts</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="facts-count animaper">
+                <div class="num" data-content="10" data-num="10">0</div>
+                <h6>Finished Projects</h6>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="facts-count animaper">
+                <div class="num"  data-content="15" data-num="15">0</div>
+                <h6>Github repositories</h6>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="facts-count animaper">
+                <div class="num" data-content="422" data-num="422">0</div>
+                <h6>Stack Overflow reputation</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section-separator margin-top"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="holo-separator"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section-title">
+                <div class="shadow-section-title">
+                  <span>Resume</span>
+                </div>
+                <h3 class="media-heading">My Bio</h3>
+                <h2 id="about_me">Resume</h2>
+                <div class="st-separator"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="accordion" data-name="1">
+                <!-- Excelsoft -->
+                <div class="title">
+                  <h5>
+                    <a href="#">
+                      <i class="fa fa-briefcase"></i> Aug'14-Continue
+                      <span> - </span>
+                      <span>Work in company "Excelsoft Technologies Pvt. Ltd."</span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="description">
+                  <h4>Sr. Software Engineer</h4>
+                  <ul>
+                    <li>Development</li>
+                    <li>Web Design</li>
+                    <li>Research &amp; Development</li>
+                  </ul>
+                  <p>Develop web application using python and django framework. Design web application using Bootstrap.</p>
+                </div>
+                <!-- eTouch Systems -->
+                <div class="title">
+                  <h5>
+                    <a href="#">
+                      <i class="fa fa-briefcase"></i> Nov'13-Jun'14
+                      <span> - </span>
+                      <span>Work in company "eTouch Systems Pvt. Ltd."</span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="description">
+                  <h4>Software Engineer</h4>
+                  <ul>
+                    <li>Development</li>
+                    <li>Web Design</li>
+                    <li>Research &amp; Development</li>
+                  </ul>
+                  <p>Develop web application using python and django framework. Design web application using Bootstrap.</p>
+                </div>
+                <!-- HT Media -->
+                <div class="title">
+                  <h5>
+                    <a href="#">
+                      <i class="fa fa-briefcase"></i> Nov'12-Nov'13
+                      <span> - </span>
+                      <span>Work in company "HT Media"</span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="description">
+                  <h4>Software Engineer (Senior Executive)</h4>
+                  <ul>
+                    <li>Development</li>
+                    <li>Web Design</li>
+                    <li>Research &amp; Development</li>
+                  </ul>
+                  <p>Develop web application using python and django framework. Design web application using Bootstrap.</p>
+                </div>
+                <!-- Codescape -->
+                <div class="title">
+                  <h5>
+                    <a href="#">
+                      <i class="fa fa-briefcase"></i> Apr'10-Oct'12
+                      <span> - </span>
+                      <span>Work in company "Codescape Consultants Pvt. Ltd."</span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="description">
+                  <h4>Software Engineer-Team Lead</h4>
+                  <ul>
+                    <li>Development</li>
+                    <li>Web Design</li>
+                    <li>Training Delivery</li>
+                    <li>Leading Team</li>
+                  </ul>
+                  <p>Develop web application using python. Design web application using CSS and HTML. Database Designing, Work-flow Designing, Architecture Designing, Web Application Development, and Networking Tools Development</p>
+                  <p>&nbsp;</p>
+                  <h4>Associate Software Engineer</h4>
+                  <ul>
+                    <li>Development</li>
+                    <li>Web Design</li>
+                    <li>Research &amp; Development</li>
+                  </ul>
+                  <p>Develop web application using ASP.net MVC framework. Design web application using CSS and HTML</p>
+                </div>
+                <!-- Certification -->
+                <div class="title">
+                  <h5>
+                    <a href="#">
+                      <i class="fa fa-bookmark"></i> Dec'06-May'07
+                      <span> - </span>
+                      <span>Certificate in Developing Enterprise Applications using .Net</span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="description">
+                  <p>Certificate in Developing Enterprise Applications using .Net Framework and XML from NIIT AJMER in year 2007.</p>
+                </div>
+                <!-- University -->
+                <div class="title">
+                  <h5>
+                    <a href="#">
+                      <i class="fa fa-graduation-cap"></i> Aug'05-Aug'09
+                      <span> - </span>
+                      <span>University Studies</span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="description">
+                  <h4>B.E. (Information Technology)</h4>
+                  <p>Govt. Engineering College, Ajmer (University of Rajasthan) with 65.15%.</p>
+                </div>
+                <!-- School -->
+                <div class="title">
+                  <h5>
+                    <a href="#">
+                      <i class="fa fa-graduation-cap"></i> July'03-May'05
+                      <span> - </span>
+                      <span>School Studies</span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="description">
+                  <h4>12th (Science)</h4>
+                  <p>D.A.V. Senior Secondary School, Ajmer (Rajasthan Board of Secondary Education) with 60.77%.</p>
+                  <p>&nbsp;</p>
+                  <h4>10th</h4>
+                  <p>D.A.V. Senior Secondary School, Ajmer (Rajasthan Board of Secondary Education) with 68.83%.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section-separator margin-top"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="holo-separator"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section-title">
+                <div class="shadow-section-title">
+                  <span>Skills</span>
+                </div>
+                <h3 class="media-heading">Attainments</h3>
+                <h2 id="about_me">Skills</h2>
+                <div class="st-separator"></div>
+              </div>
+            </div>
+          </div>
+          <div class="piechart-holder animaper" data-skcolor="#8F8F8F">
+            <div class="row">
+              <div class="piechart col-xs-3">
+                <span class="chart" data-percent="70">
+                  <span class="percent"></span>
+                </span>
+                <div class="description"><h4>Design</h4></div>
+              </div>
+              <div class="col-xs-8">
+                <div class="skillbar-box animaper">
+                  <!-- CSS -->
+                  <div class="title">
+                    <span>CSS</span>
+                  </div>
+                  <div class="skill-bar-percent">85%</div>
+                  <div class="skillbar-bg" data-percent="85%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                  <!-- HTML -->
+                  <div class="title">
+                    <span>HTML</span>
+                  </div>
+                  <div class="skill-bar-percent">75%</div>
+                  <div class="skillbar-bg" data-percent="75%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                  <!-- Photoshop -->
+                  <div class="title">
+                    <span>Photoshop</span>
+                  </div>
+                  <div class="skill-bar-percent">50%</div>
+                  <div class="skillbar-bg" data-percent="50%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="piechart-holder animaper" data-skcolor="#8F8F8F">
+            <div class="row">
+              <div class="piechart col-xs-3">
+                <span class="chart" data-percent="75">
+                  <span class="percent"></span>
+                </span>
+                <div class="description"><h4>Development</h4></div>
+              </div>
+              <div class="col-xs-8">
+                <div class="skillbar-box animaper">
+                  <!-- Python -->
+                  <div class="title">
+                    <span>Python</span>
+                  </div>
+                  <div class="skill-bar-percent">85%</div>
+                  <div class="skillbar-bg" data-percent="85%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                  <!-- JavaScript -->
+                  <div class="title">
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="skill-bar-percent">85%</div>
+                  <div class="skillbar-bg" data-percent="85%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                  <!-- Ruby -->
+                  <div class="title">
+                    <span>Ruby</span>
+                  </div>
+                  <div class="skill-bar-percent">55%</div>
+                  <div class="skillbar-bg" data-percent="55%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="piechart-holder animaper" data-skcolor="#8F8F8F">
+            <div class="row">
+              <div class="piechart col-xs-3">
+                <span class="chart" data-percent="60">
+                  <span class="percent"></span>
+                </span>
+                <div class="description"><h4>Languages</h4></div>
+              </div>
+              <div class="col-xs-8">
+                <div class="skillbar-box animaper">
+                  <!-- Hindi -->
+                  <div class="title">
+                    <span>Hindi</span>
+                  </div>
+                  <div class="skill-bar-percent">90%</div>
+                  <div class="skillbar-bg" data-percent="90%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                  <!-- English -->
+                  <div class="title">
+                    <span>English</span>
+                  </div>
+                  <div class="skill-bar-percent">65%</div>
+                  <div class="skillbar-bg" data-percent="65%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                  <!-- Japanese -->
+                  <div class="title">
+                    <span>Japanese</span>
+                  </div>
+                  <div class="skill-bar-percent">35%</div>
+                  <div class="skillbar-bg" data-percent="35%">
+                    <div class="custom-skillbar" style="width: 0%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section-separator margin-top"></div>
+            </div>
+          </div>
+        </div>
+        <div class="height-gap"></div>
+        <footer>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="footer-info">
+                <h4>FIND ME</h4>
+              </div>
+              <div class="footer-social">
+                <ul>
+                  <li><a href="http://www.facebook.com/yoku2010" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/yoku_2010" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://plus.google.com/108460987249057553016" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="skype:yogesh_kumar1988?call" target="_blank"><i class="fa fa-skype"></i></a></li>
+                  <li><a href="http://www.linkedin.com/in/yoku2010" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="footer-info">
+                <h4>Contact Info</h4>
+              </div>
+              <ul class="footer-contacts">
+                <li><a href="#"><i class="fa fa-phone"></i> +91 8130935784</a></li>
+                <li><a href="#"><i class="fa fa-map-marker"></i> Gurgaon, IN.</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o"></i> yoku2010@gmail.com</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <div class="footer-info">
+                <h4>My Websites</h4>
+              </div>
+              <ul class="footer-contacts">
+                <li><a href="http://bluejson.com" target="_blank"><i class="fa fa-bar-chart"></i> Blue JSON</a></li>
+                <li><a href="http://marutsakha.com" target="_blank"><i class="fa fa-briefcase"></i> Marutsakha</a></li>
+                <li><a href="http://sharepetrol.com" target="_blank"><i class="fa fa-car"></i> Share Petrol</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="copyright">
+                <p>&copy; Marutsakha 2016 Developed by <a href="#">Yogesh Kumar</a> | All rights reserved.</p>
+                <div class="to-top"><i class="fa fa-angle-double-up"></i></div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/libs/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/libs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/libs/easy.pie.chart.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.appear.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
 </html>
