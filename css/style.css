@@ -121,6 +121,7 @@ a.top-header, a.top-header:hover, a.top-header:focus {
   background-repeat: repeat;
   background-origin: content-box;
   background-image: url(../images/bg.jpg);
+  background-color: #111;
 }
 .main-section {
   width: 100%;
