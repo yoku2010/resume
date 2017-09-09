@@ -308,7 +308,7 @@ h3.media-heading:before {
   font-size: 14px;
   outline: none;
   padding: 13px 20px;
-  position: absolute;
+  position: relative;
   border: 0 none;
   overflow: hidden;
 }
@@ -702,4 +702,24 @@ a.download-resume:hover, a.download-resume:focus {
 }
 a.download-resume:hover i {
   opacity:0.6;
+}
+div.presentation {
+  width: 100%;
+  border: 1px solid #414146;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+div.presentation img {
+  width: 100%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+div.presentation:hover img {
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+div.presentation a {
+  width: 100%;
 }
