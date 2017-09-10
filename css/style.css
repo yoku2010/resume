@@ -597,6 +597,7 @@ footer {
   font-size: 13px;
   text-align: left;
   padding: 6px;
+  overflow: hidden;
 }
 .accordion .description h4 {
   font-family: 'Montserrat', sans-serif;
