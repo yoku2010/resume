@@ -91,6 +91,7 @@ h3.media-heading, .st-separator, .st-separator:before, .btn-holo, .footer-info h
   background: #FFF;
   width: 60%;
   z-index: 3;
+  overflow: hidden;
 }
 a.top-header, a.top-header:hover, a.top-header:focus {
   background-color: #FFC815!important;
