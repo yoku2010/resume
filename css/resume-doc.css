@@ -1,21 +1,24 @@
 /*-------------Import fonts ---------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Noticia+Text:400,700');
-@import url('https://fonts.googleapis.com/css?family=Assistant:200,600');
+@import url("https://fonts.googleapis.com/css?family=Noticia+Text:400,700");
+@import url("https://fonts.googleapis.com/css?family=Assistant:200,600");
 body {
-  font-family: 'Noticia Text', serif;
-  font-size: 16px;
+  font-family: "Noticia Text", serif;
+  font-size: 13px;
 }
 h1 {
-  font-family: 'Assistant', serif;
+  font-family: "Assistant", serif;
   font-size: 50px;
 }
 ul {
   padding-left: 20px;
 }
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
-em, a, a:hover {
+em,
+a,
+a:hover {
   color: #888;
 }
 .dark {
@@ -23,36 +26,36 @@ em, a, a:hover {
 }
 .sub-header {
   font-size: 24px;
-  font-family: 'Assistant', serif;
+  font-family: "Assistant", serif;
 }
 .resume-head {
   background-color: #555;
-  color: #FFF;
+  color: #fff;
   overflow: hidden;
 }
 .resume-body {
-  background-color: #FFF;
+  background-color: #fff;
 }
 .contact-details h3 {
-  color: #FF007B;
+  color: #ff007b;
 }
 .total-experience h3 {
-  color: #008B45;
+  color: #008b45;
 }
 .skills-details h3 {
-  color: #ffAE00;
+  color: #ffae00;
 }
 .languages-details h3 {
   color: #798710;
 }
 .project-details h3 {
-  color: #08ABD3;
+  color: #08abd3;
 }
 .experience-details h3 {
-  color: #660DA5;
+  color: #660da5;
 }
 .education-details h3 {
-  color: #C61919;
+  color: #c61919;
 }
 h3 {
   font-weight: bold;
