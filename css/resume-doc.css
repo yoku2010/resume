@@ -29,8 +29,7 @@ a:hover {
   font-family: "Assistant", serif;
 }
 .resume-head {
-  background-color: #333;
-  color: #fff;
+  color: #333;
   overflow: hidden;
 }
 .resume-body {
@@ -62,4 +61,7 @@ h3 {
 }
 .black {
   color: #000 !important;
+}
+.project p {
+  margin: 0 0 5px;
 }
